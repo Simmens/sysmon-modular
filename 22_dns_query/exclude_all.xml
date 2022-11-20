@@ -1,0 +1,9 @@
+<Sysmon schemaversion="4.30">
+	<!-- special thanks to @SwiftOnSecurity for this -->
+	<EventFiltering>
+		<RuleGroup name="" groupRelation="or">
+			<DnsQuery onmatch="include">
+			</DnsQuery>
+		</RuleGroup>
+	</EventFiltering>
+</Sysmon>
